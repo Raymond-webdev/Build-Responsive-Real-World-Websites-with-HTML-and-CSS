@@ -65,7 +65,7 @@ You can create a list of selectors in order to select multiple elements then you
 
 **Example**
 
-`h1, h2, h3, h4, p, li {`
+&rarr;	h1, h2, h3, h4, p, li {
 `font-family: sans-serif;`
 `color: #444;`
 `}`

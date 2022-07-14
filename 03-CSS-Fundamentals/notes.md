@@ -4,11 +4,13 @@
 
 **An inline** CSS is used to apply a unique style to a single HTML element.
 
-<h1 style="color:blue;">A Blue Heading</h1>
+**Example**
+<!-- <h1 style="color:blue;">A Blue Heading</h1> -->
 
 **Internal** - by using a <style> element in the <head> section.
 
-<!DOCTYPE html>
+**Example**
+<!-- <!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -23,11 +25,12 @@ p    {color: red;}
 <p>This is a paragraph.</p>
 
 </body>
-</html>
+</html> -->
 
 **External** - by using a <link> element to link to an external CSS file.
 
-<!DOCTYPE html>
+**Example**
+<!-- <!DOCTYPE html>
 <html>
 <head>
   <link rel="stylesheet" href="styles.css">
@@ -38,7 +41,7 @@ p    {color: red;}
 <p>This is a paragraph.</p>
 
 </body>
-</html>
+</html> -->
 
 ## Combining selectors
 

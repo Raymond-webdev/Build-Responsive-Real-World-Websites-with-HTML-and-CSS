@@ -5,7 +5,7 @@
 **An inline** CSS is used to apply a unique style to a single HTML element.
 
 **Example**
-<!-- <h1 style="color:blue;">A Blue Heading</h1> -->
+`<h1 style="color:blue;">A Blue Heading</h1>`
 
 **Internal** - by using a <style> element in the <head> section.
 
@@ -15,13 +15,11 @@
 <head>
 <style>
 body {background-color: powderblue;}
-h1   {color: blue;}
 p    {color: red;}
 </style>
 </head>
 <body>
 
-<h1>This is a heading</h1>
 <p>This is a paragraph.</p>
 
 </body>

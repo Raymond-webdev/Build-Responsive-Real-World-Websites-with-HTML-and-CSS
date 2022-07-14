@@ -11,14 +11,23 @@
 **Internal** - by using a <style> element in the <head> section.
 
 `Example`
+
 `<!DOCTYPE html>`
+
 `<html>`
+
 `<head>`
+
 `<style>`
+
 `body {background-color: powderblue;}`
+
 `p    {color: red;}`
+
 `</style>`
+
 `</head>`
+
 `<body>`
 
 `<p>This is a paragraph.</p>`

@@ -9,8 +9,8 @@
 
 **Internal** - by using a <style> element in the <head> section.
 
-**Example**
-<!-- <!DOCTYPE html>
+`Example`
+<!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -25,11 +25,11 @@ p    {color: red;}
 <p>This is a paragraph.</p>
 
 </body>
-</html> -->
+</html>
 
 **External** - by using a <link> element to link to an external CSS file.
 
-**Example**
+`Example`
 <!-- <!DOCTYPE html>
 <html>
 <head>

@@ -97,12 +97,14 @@ margin-top: 15px;
 }
 
 .color {
-background-color: black;
 width: 22px;
 height: 22px;
 display: inline-block;
 margin-right: 10px;
 } 
+.color-black {
+    background-color: black
+}
 
 .color-blue {
     background-color: blue;

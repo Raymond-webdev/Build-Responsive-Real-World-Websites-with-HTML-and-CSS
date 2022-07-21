@@ -11,6 +11,7 @@ body {
     border: solid black 4px;
     width: 825px;
     margin: 50px auto;
+    position: relative;
 }
 .product-title {
     text-align: center;
@@ -18,7 +19,7 @@ body {
     font-size: 24px;
     background-color: #f7f7f7;
     padding: 15px;
-}
+    }
 
 .price{
      font-size: 24px;
@@ -34,6 +35,8 @@ body {
 
 .more-info {
 padding: 10px auto !important;
+margin-bottom: 30px;
+display: inline-block;
 }
 
 .more-info:link, .more-info:visited {
@@ -80,3 +83,43 @@ margin-top: 15px;
     background-color: #fff;
     color: #000;
 }
+.sale{
+   position: absolute;
+   background-color: rgb(214, 58, 58);
+   color: white;
+   top: -15px;
+   left: -40px;
+   padding: 5px 20px;
+   font-weight: bold;
+   font-size: 13px;
+   letter-spacing: 2px;
+   border-radius: 3px;
+}
+
+.color {
+background-color: black;
+width: 22px;
+height: 22px;
+display: inline-block;
+margin-right: 10px;
+} 
+
+.color-blue {
+    background-color: blue;
+   }
+
+.color-red { 
+    background-color: red;
+  }
+
+.color-orange {    
+    background-color: orange;
+  }
+
+.color-green {   
+    background-color: green;
+ }
+
+.color-brown {
+    background-color: brown;
+   }

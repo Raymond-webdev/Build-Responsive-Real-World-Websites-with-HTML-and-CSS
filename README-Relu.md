@@ -1,6 +1,6 @@
-# Build-Responsive-Real-World-Websites-with-HTML-and-CSS
+# Build-Responsive-Real-World-Websites-with-HTML5-and-CSS3
 
-HTML and CSS course wherein you will learn all about web designing, the professional building of websites, creating codes of a huge project, and various others. This course is facilitated by Jonas Schmedtmann, who is a highly experienced and exceptional web developer, designer, and teacher. He bags the highest ratings and reviews in Udemy and possesses a Master’s degree in Engineering and passion for teaching. This course will equip you with the best of knowledge by offering demand videos, articles, and other supplement sources. 
+This online HTML and CSS course will teach you all about web designing, the professional building of websites, creating codes of a huge project, and various others. This course is facilitated by Jonas Schmedtmann, who is a highly experienced and exceptional web developer, designer, and teacher. He bags the highest ratings and reviews in Udemy and possesses a Master’s degree in Engineering and passion for teaching. This course will equip you with the best of knowledge by offering demand videos, articles, and other supplement sources. 
 
 
 Lectures: 151

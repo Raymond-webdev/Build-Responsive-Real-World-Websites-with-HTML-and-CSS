@@ -6,4 +6,5 @@
 2. **The second challenge** 
 - consists in wrapping all the content inside an article element 
 - customising the "button" element 
-- then finally customising the anchor "a" tag by adding an HTML entity to it.
+- customising the anchor "a" tag by adding an HTML entity to it (&rarr;).
+- then finally inserting an image and customising the dimensions of it.

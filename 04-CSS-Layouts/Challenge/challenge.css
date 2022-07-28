@@ -1,0 +1,160 @@
+/* In this challenge I had to use the float and box-sizing property  in order to make the
+ three containers to go side by side.*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+.product-image {
+float: left;
+margin-right: 40px;
+}
+
+
+.product {
+    border: solid black 4px;
+    width: 825px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.product-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    background-color: #f7f7f7;
+    padding: 15px;
+}
+
+
+
+.price{
+     font-size: 24px;
+     float: left;  
+      
+}
+.shipping {
+    color: #777;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    float: right;
+ }
+/* Product information */
+.product-info{
+width: 243px;
+float: left;
+margin-right: 40px;
+margin-top: 20px;
+}
+
+
+.more-info {
+padding: 10px auto !important;
+margin-bottom: 30px;
+display: inline-block;
+}
+.product-description {
+clear: both;
+margin-bottom: 10px;
+}
+
+.more-info:link, .more-info:visited {
+    color:black; 
+    
+}
+.more-info:hover, .more-info:active {
+ text-decoration: none;
+}
+
+
+
+/* Product details */
+.product-details {
+    width: 243px;
+    float: left;
+    margin-top: 25px;
+}
+
+.details-title {
+text-transform: uppercase;
+font-size: 16px;
+margin-bottom: 15px;
+}
+
+.details-list {
+    list-style: square;
+    margin-left: 50px;
+    margin-left: 20px;
+}
+.details-list li {
+   margin-bottom: 10px;
+}
+
+/* Button */
+
+.add-cart {
+    background-color: #000;
+    color:#fff;
+    border-top: 4px solid black;
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100%;
+    padding:15px;
+}
+.add-cart:hover{
+    background-color: #fff;
+    color: #000;
+}
+.sale{
+   position: absolute;
+   background-color: rgb(214, 58, 58);
+   color: white;
+   top: -15px;
+   left: -40px;
+   padding: 5px 20px;
+   font-weight: bold;
+   font-size: 13px;
+   letter-spacing: 2px;
+   border-radius: 3px;
+}
+.colors{
+}
+.color {
+width: 22px;
+height: 22px;
+display: inline-block;
+margin-right: 10px;
+} 
+.color-black {
+    background-color: black
+}
+
+.color-blue {
+    background-color: blue;
+   }
+
+.color-red { 
+    background-color: red;
+  }
+
+.color-orange {    
+    background-color: orange;
+  }
+
+.color-green {   
+    background-color: green;
+ }
+
+.color-brown {
+    background-color: brown;
+   }

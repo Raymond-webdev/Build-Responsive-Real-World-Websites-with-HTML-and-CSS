@@ -12,3 +12,4 @@
 
 3. **The third challenge**
 - consists in adding a sale label at the top left of the article page.
+- creating 6 available colored containers and adding their dimensions (width and height), also using the display: inline-block property in order to stack them side by side.

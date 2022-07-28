@@ -1,0 +1,1 @@
+# To clear a float, add the clear property to the element that needs to clear the float. This is usually the element after the floated element. The clear property can take the values of left , right , and both

@@ -1,0 +1,10 @@
+/* The CSS box-sizing property allows us to include the padding and b
+order in an element's total width and height. */
+
+aside {
+    background-color: #f7f7f7;
+    border-top: 5px solid #1098ad;
+    border-bottom: 5px solid #1098ad;
+    padding: 50px 40px;
+    box-sizing: border-box;
+  }

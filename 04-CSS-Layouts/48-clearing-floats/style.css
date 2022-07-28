@@ -1,0 +1,9 @@
+.clear {
+    clear: left;
+  }
+
+  .clearfix::after {
+    clear: both;
+    content:"";
+    display: block;
+  }

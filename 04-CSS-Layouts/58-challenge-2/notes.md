@@ -1,0 +1,3 @@
+## In the 2nd challenge I had to create the same layout and design for the converse shoes website but instead of using floats I had to use the flex property.
+## So by applying the flex property to the right container, it positioned the elements to be in the same place just like using "float" property.
+## using the flex property is much more convenient and it automatically gives the same width between the elements then I can adjust it by using the "gap" property.

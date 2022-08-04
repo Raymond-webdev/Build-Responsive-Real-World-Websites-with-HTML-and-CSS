@@ -1,0 +1,9 @@
+/*  Previously we used the "float" property in order to position 
+a container but now the flex property has been used which 
+ it makes it easier to design flexible responsive 
+ layout structure without using the float or positioning property. */
+
+.main-header {
+    display: flex;
+    align-items: center;
+}

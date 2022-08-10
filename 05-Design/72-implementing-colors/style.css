@@ -1,0 +1,23 @@
+/* Below I have used some of th guidelines I just learned about colors
+ */
+
+
+
+h1 {
+    margin-bottom: 24px;
+    font-size: 44px;
+    line-height: 1.1;
+    letter-spacing: -1px;
+  }
+
+  .header-text {
+    margin-bottom: 24px;
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  footer {
+    margin-bottom: 48px;
+    font-size: 14px;
+    color: #495057;
+  }

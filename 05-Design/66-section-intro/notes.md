@@ -1,0 +1,2 @@
+## In this section we will turn our focus from the web development to web design.
+## So in this section we will learn about the web design framework that has been created for this course and also applying some of the most important rules to a new and small project using CSS.

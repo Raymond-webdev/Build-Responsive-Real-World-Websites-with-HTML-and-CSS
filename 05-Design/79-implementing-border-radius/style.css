@@ -1,0 +1,17 @@
+/* Specifying border-radiu in CSS it's actually extremelly easy.
+   All we need to do is to specify the border-radius property on some element.
+*/
+/* Border-radius example */
+
+.chair {
+    border-radius: 12px;
+  }
+
+  /* We can actually control individual corners of an element using CSS  */
+
+  /* Example: */
+
+  .chair img {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }

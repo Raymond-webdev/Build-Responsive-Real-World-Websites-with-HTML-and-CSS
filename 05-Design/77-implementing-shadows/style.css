@@ -1,0 +1,16 @@
+/* Below it's a demonstration of how shadows work. */
+/* In order to add a shadow, we need to use the box-shadow property. */
+
+/* The box-shadow also requires multiple values 
+    - the first value is the horizontal offset
+    - the second value is the vertical offset
+    - the third value is the blur of the shadow
+    - the fourth value is optional and it's to do with the scaling the shadow up
+    - the last value is the color
+    */
+
+    /* Example of the box -shadow property and values */
+
+    .chair {
+        box-shadow: 10px 20px 30px 0px #000;
+      }

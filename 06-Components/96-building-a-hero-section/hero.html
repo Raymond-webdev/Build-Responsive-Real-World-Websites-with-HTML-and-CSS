@@ -1,0 +1,151 @@
+<!-- Below I have build a Hero section webpage. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:wght@400;500;700&family=Rubik:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <title>Omnifood Hero Section</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-family: "Rubik", sans-serif;
+            color: #444;
+        }
+
+        .container {
+            margin: 0 auto;
+            width: 1200px;
+
+        }
+
+        /* In order to make the header's height 100% tall, 
+         we need to use a new unit that is going to do the trick and that unit is called 
+         viewport height so basically this will be 100% of the available page viewport. */
+        header {
+            /* background: orangered; */
+            height: 100vh;
+            position: relative;
+/* I used the background-image property below in order to include an image in the background behind the text.
+Also I have used the background-cover property which will help me to figure out the exact size that the image
+needs to be to cover the entire element.  */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.603)), url(/06-Components/hero.jpg);
+            background-size: cover;
+            color: #fff;
+
+
+
+        }
+
+        nav {
+            font-size: 20px;
+            font-weight: 700;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 32px;
+            /* background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(4, 8, 255)) */
+
+            /* background-color: green; */
+            ;
+        }
+
+        .header-container {
+            position: absolute;
+
+            /* In relation to the PARENT size. */
+            left: 50%;
+            top: 50%;
+
+
+            /* In relation to the ELEMENT size */
+            transform: translate(-50%, -50%);
+
+            /* background-color: violet; */
+            /* text-align: center; */
+        }
+
+        .header-container-inner {
+            width: 50%;
+            /* background-color: blue; */
+        }
+
+        h1 {
+            font-size: 52px;
+            margin-bottom: 32px;
+            line-height: 1.05;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.6;
+            margin-bottom: 48px;
+        }
+
+        .btn:link,
+        .btn:visited {
+            font-size: 20px;
+            font-weight: 600;
+            background-color: #e67e22;
+            color: #fff;
+            text-decoration: none;
+            display: inline-block;
+            padding: 16px 32px;
+            border-radius: 9px;
+        }
+
+        h2 {
+            font-size: 44px;
+            margin-bottom: 48px;
+        }
+
+        section {
+            padding: 96px 0;
+            background-color: #f7f7f7;
+        }
+    </style>
+</head>
+<!-- Below I have created the "header" component which includes the "nav" "h1" and the "p" element.
+     Below that the section component has been created for the extra text.  -->
+
+<body>
+    <header>
+        <nav class="container">
+            <div>LOGO</div>
+            <div>NAVIGATION</div>
+        </nav>
+        <div class="header-container">
+            <div class="header-container-inner">
+            <h1>A healthy meal delivered to your door every single day</h1>
+            <p>The smart 365-days-per-year food subscription that will make you eat healthy
+                taylored to your personal taste and nutritional needs
+            </p>
+            <a href="#" class="btn">Start eating well</a>
+        </div>
+        </div>
+
+    </header>
+
+    <section>
+        <div class="container">
+            <h2>Some random heading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eius, est possimus assumenda fugit in magnam nostrum
+                dignissimos? Magnam cupiditate necessitatibus non laboriosam
+                nisi temporibus quas voluptate quam cumque officia.</p>
+        </div>
+    </section>
+
+</body>
+
+</html>

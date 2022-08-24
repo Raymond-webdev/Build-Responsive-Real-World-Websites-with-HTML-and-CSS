@@ -1,0 +1,2 @@
+### In this section we will continue building the Omnifood project and we will finally make it fully responsive.
+### We already have used some responsive design ingredients such as **Grids** and **responsive Units** but now it's time to make the website trully responsive by using **Media query**.

@@ -1,0 +1,1 @@
+### In order to find out if a browser can support our webpage style, we can make use of a website called www.caniuse.com so in here we can input any css property and it will give us the outcome if it supports it and if we need to do any other changes to our code.
